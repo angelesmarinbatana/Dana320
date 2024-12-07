@@ -1,1 +1,1 @@
-This file has our original dataset, and our original dataset 
+This file has our original dataset our cleaned dataset, and the .ipynb files used to clean the dataset
