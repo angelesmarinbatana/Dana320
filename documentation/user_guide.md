@@ -5,4 +5,4 @@ Running the app + visualization
 
 2. You will then see the visualization 
 
-<img src="documentation/sc.JPEG" alt="Visualization">
+<img src="./sc.JPEG" alt="Visualization">
