@@ -30,8 +30,8 @@ ui <- fluidPage(
       sliderInput("year_range", "Release Year Range:", 
                   min = min(movies$releaseYear), max = max(movies$releaseYear), 
                   value = c(1980, 2000)),
-      textInput("genre_filter", "Genre Contains:", value = ""),
-      textInput("country_filter", "Available Countries Contains:", value = ""),
+      textInput("genre_filter", "Genre Contains (action, comedy, etc):", value = ""),
+      textInput("country_filter", "Available Countries Contains (us or jp):", value = ""),
       selectInput("x_var", "X-axis Variable:", 
                   choices = c("releaseYear", "imdbAverageRating", "imdbNumVotes")),
       selectInput("y_var", "Y-axis Variable:", 
@@ -81,7 +81,8 @@ server <- function(input, output) {
       text = ~paste(
         "Title: ", title, "<br>",
         "Genre: ", genres, "<br>",
-        "IMDB Rating: ", imdbAverageRating
+        "IMDB Rating: ", imdbAverageRating, "<br>",
+        "Release Year: ", releaseYear
       ),
       hoverinfo = "text",
       type = "scatter",
