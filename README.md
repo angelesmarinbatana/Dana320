@@ -6,4 +6,4 @@ A shiny application that allows for visual exploration of a data set, giving the
 
 The interactivity adds significant value beyond what could be accomplished in a static visualization.
 
-The documentation and R code is thorough, clean and efficient. The user interface needs is user friendly and agile.
+The * [documentation](https://github.com/angelesmarinbatana/Shiny-App/blob/main/documentation) and R code is thorough, clean and efficient. The user interface needs is user friendly and agile.
